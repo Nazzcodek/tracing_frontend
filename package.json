@@ -36,7 +36,8 @@
   "scripts": {
     "build": "react-scripts build && serve -s build --ssl-cert ssl_certificate.pem --ssl-key ssl_private_key.pem ",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm install -g serve"
   },
   "browserslist": {
     "production": [
